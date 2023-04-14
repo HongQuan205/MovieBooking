@@ -132,6 +132,7 @@ export default function Header() {
                 <span key={link.id} className={classes.link} onClick={() => handleClickLink(link.id)}>{link.nameLink}</span>
               ))}
             </Grid>
+            
           </div>
 
           {/* user account */}

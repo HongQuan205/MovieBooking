@@ -9,14 +9,17 @@ import Loading from "./components/Loading";
 import { theme } from "./constants/config";
 
 // layout
+
 const MainLayout = lazy(() => import("./layouts/MainLayout"));
 const AuthLayout = lazy(() => import("./layouts/AuthLayout"));
 const AdminLayout = lazy(() => import("./layouts/AdminLayout"));
 // guards
+
 const AdminRoute = lazy(() => import("./guards/AdminRoute"));
 const CheckoutRoute = lazy(() => import("./guards/CheckoutRoute"));
 const UserProfileRoute = lazy(() => import("./guards/UserProfileRoute"));
 // page
+
 const Homepage = lazy(() => import("./pages/Homepage"));
 const MovieDetail = lazy(() => import("./pages/MovieDetail"));
 const UserProfile = lazy(() => import("./pages/UserProfile"));
